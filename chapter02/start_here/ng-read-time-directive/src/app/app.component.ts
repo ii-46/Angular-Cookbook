@@ -6,4 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  readTime = "";
+  onReadTimeCalculated(timeStr: string) {
+    this.readTime = timeStr;
+  }
 }
